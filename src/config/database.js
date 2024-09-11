@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
-// Corrected MongoDB URI
-mongoose.connect('mongodb://localhost:27017/productokdsb', {
+mongoose.connect('mongodb://localhost:27017/MongoBD', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
